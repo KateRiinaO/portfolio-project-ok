@@ -73,6 +73,9 @@ p {
 .project-description {
   padding: 60px 60px;
 }
+.project-card {
+  padding: 60px;
+}
 .btn-branding-outline {
   text-decoration: none;
   color: var(--branding-color);
