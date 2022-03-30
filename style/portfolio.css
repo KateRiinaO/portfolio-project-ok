@@ -30,6 +30,15 @@ h6 {
   font-weight: bold;
   font-family: var(--heading-font-family);
 }
+.about-me h1 {
+  font-size: 50px;
+}
+.about-me h2 {
+  font-size: 30px;
+}
+.about-me {
+  text-align: right;
+}
 h2 {
   font-size: 64px;
 }
@@ -43,6 +52,9 @@ p {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 50px 50px;
+}
+.about {
+  background-color: #f4f8fb;
 }
 .hero p {
   font-size: 36px;
@@ -76,6 +88,15 @@ p {
 .project-card {
   padding: 60px;
 }
+.btn-branding {
+  text-decoration: none;
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 .btn-branding-outline {
   text-decoration: none;
   color: var(--branding-color);
@@ -90,11 +111,17 @@ p {
   h1 {
     font-size: 40px;
   }
+  h2 {
+    font-size: 20px;
+  }
   .hero {
     padding: 80px 0px;
   }
   .project-description {
     text-align: center;
     padding: 60px 30px;
+  }
+  .about-me {
+    text-align: center;
   }
 }
