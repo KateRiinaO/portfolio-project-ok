@@ -16,6 +16,31 @@ font-family: 'Roboto', sans-serif;*/
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+.logo {
+  padding-bottom: 30px;
+  max-width: 100px;
+}
+nav ul {
+  padding-top: 40px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 100px;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 150ms;
+}
+
 body {
   background: #f4f8fb;
   font-family: var(--default-font-family);
@@ -55,7 +80,7 @@ p {
   color: rgba(39, 33, 66, 1);
 }
 .hero h1 {
-  font-size: 96px;
+  font-size: 70px;
   color: rgba(0, 0, 0, 1);
 }
 .hero h2 {
@@ -118,6 +143,9 @@ p {
   font-weight: bolder;
 }
 @media (max-width: 960px) {
+  .logo {
+    display: flex;
+  }
   h1 {
     font-size: 40px;
   }
