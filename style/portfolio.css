@@ -58,6 +58,9 @@ h6 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 50px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -144,6 +147,34 @@ p {
 .work-img {
   max-height: 200px;
 }
+
+footer {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 50px 120px;
+  border-radius: 10px;
+}
+footer .btn-branding {
+  margin-top: 70px !important;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 60px;
+  margin-top: 10px;
+  color: var(--branding-color);
+}
+
+footer a:hover {
+  color: #40b385;
+}
+
 @media (max-width: 960px) {
   .logo-small {
     display: block;
@@ -177,7 +208,4 @@ p {
   .btn-branding-outline {
     padding: 5px 10px;
   }
-}
-img:hover {
-  filter: grayscale(100%);
 }
