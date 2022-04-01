@@ -173,6 +173,10 @@ p {
   .about-me {
     text-align: center;
   }
+  .btn-branding,
+  .btn-branding-outline {
+    padding: 5px 10px;
+  }
 }
 img:hover {
   filter: grayscale(100%);
