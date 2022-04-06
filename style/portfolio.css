@@ -186,9 +186,9 @@ footer .btn-branding {
 
 @media (max-width: 960px) {
   .logo-small {
-    display: block;
     text-align: center;
-    font-size: 40px;
+    width: 30px;
+    height: 30px;
   }
   .hero p {
     margin-top: 150px;
@@ -197,7 +197,7 @@ footer .btn-branding {
     padding: 0px;
   }
   nav li {
-    font-size: 20px;
+    font-size: 15px;
   }
   nav a {
     margin-left: 10px;
